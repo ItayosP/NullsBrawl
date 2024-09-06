@@ -1,6 +1,6 @@
 import requests
 
-url = 'https://github.com/ItayosP/Null-s-Brawl/archive/refs/heads/main.zip'
+url = 'https://github.com/ItayosP/Null-s-Brawl/archive/refs/heads/master.zip'
 
 response = requests.get(url, stream=True)
 with open('Null-s-Brawl.zip', "wb") as f:
